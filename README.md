@@ -1,8 +1,8 @@
 # EstencelSessionFixMod
 License: NYSL <http://www.kmonos.net/nysl>
 
-3人以上でのプレイ中にロード(全滅・暖炉転送など)を挟むとプレイヤーが弾かれる不具合を回避するMod
-導入はホストのみでok
+- 3人以上でのプレイ中にロード(全滅・暖炉転送など)を挟むとプレイヤーが弾かれる不具合を回避するMod
+- 導入はホストのみでok
 
 ---
 
@@ -17,12 +17,13 @@ License: NYSL <http://www.kmonos.net/nysl>
     - `Win64`下に`dwmapi.dll`, `ue4ss`フォルダが展開されていればok
 
 ### 2. Mod導入
-`EstencelSessionFix`フォルダを`ue4ss\Mods\`にコピー
+1. 本ページ上部の`<>Code`->`Download ZIP`
+2. `EstencelSessionFix`フォルダを`ue4ss\Mods\`にコピー
 
 ---
 
 ## 削除手順
-それぞれ導入したものを削除するだけでok(Steamのプロセスを終了していないと削除できないかもしれない)
+それぞれ導入したものを削除するだけでok (Steamのプロセスを終了していないと削除できないかもしれない)<br>
 **ゲームのアンインストール後も残ることがあるので要確認(手動削除してください)**
 - UE4SS+Mod: `dwmapi.dll`, `ue4ss` を削除
 - Mod単体: `Mods\EstencelSessionFix` フォルダのみ削除
